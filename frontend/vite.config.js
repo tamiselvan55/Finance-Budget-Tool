@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Finance-Budget-Tool/',  // Important for GitHub Pages
+  base: '/Finance-Budget-Tool/',  // <-- must match repo name
 });
